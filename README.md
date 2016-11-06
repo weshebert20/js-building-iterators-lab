@@ -63,7 +63,7 @@ console.log("Expected:", ["A", "B", "C"], "Got:", output)
 To execute this code from the command-line, you need to type:
 
 ``` bash
-# make sure you are inside the building-js-iterators-lab directory
+# make sure you are inside the js-building-iterators-lab directory
 node index.js
 ```
 
@@ -76,12 +76,12 @@ For each problem (`problems.forEach`!), you can run the provided tests to check 
 
 #### Test Setup
 
-Make sure you are inside the `building-js-iterators-lab` directory.
+Make sure you are inside the `js-building-iterators-lab` directory.
 
 From the command-line, run:
 
 ```bash
-# make sure you are inside the building-js-iterators-lab directory
+# make sure you are inside the js-building-iterators-lab directory
 npm install
 npm install -g mocha
 ```
@@ -91,7 +91,7 @@ npm install -g mocha
 To run the tests for `myMap` from the command-line, type:
 
 ```bash
-# make sure you are inside the building-js-iterators-lab directory
+# make sure you are inside the js-building-iterators-lab directory
 mocha spec/myMapSpec.js
 ```
 
@@ -100,7 +100,7 @@ This will test the `myMap` function you wrote in `myMap.js`.
 You can do the same thing for the other iterators as well:
 
 ```bash
-# make sure you are inside the building-js-iterators-lab directory
+# make sure you are inside the js-building-iterators-lab directory
 mocha spec/myEachSpec.js
 mocha spec/myReduceSpec.js
 ```

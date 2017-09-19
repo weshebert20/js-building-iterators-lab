@@ -2,8 +2,13 @@
 // Don't worry about initialValue at first. You can always add it in later.
 
 function myReduce(arr, callback) {
+	//create new variable 
+	var newArray = [];
+	
+	for(let i=0; i < arr.length; i++){
 
-//  CODE INSIDE HERE   //
+	}
+
 
 }
 

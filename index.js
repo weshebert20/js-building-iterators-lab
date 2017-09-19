@@ -22,7 +22,7 @@ var numArray = [0,1,10,100,1000];
 
 /* myMap */
 
-/*var input = ["a","b","c"];
+var input = ["a","b","c"];
 var output = myMap(input, function capitalize(v){
     return v.toUpperCase();
 });
@@ -30,4 +30,4 @@ console.log('Testing myMap');
 console.log(output);
 console.log(output[0] === "A" && output[1] === "B" && output[2] === "C"); // assertion
 
-console.log("the end");*/
+console.log("the end");

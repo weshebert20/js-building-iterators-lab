@@ -1,9 +1,14 @@
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Map
 
 function myMap(arr, callback) {
-
-//  CODE INSIDE HERE   //
-
+	//create new array 
+	var newArray = [];
+	//loop through array
+	for(let i = 0; i < arr.length; i++){
+	//push the new array into the variable set
+	newArray.push(callback(arr[i], i, arr));
+	}
+	return newArray;
 }
 
 /*

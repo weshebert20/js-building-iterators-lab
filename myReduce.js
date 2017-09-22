@@ -3,12 +3,12 @@
 
 function myReduce(arr, callback) {
 	//create new variable 
-	var newArray = [];
+	var newArray = arr[0];
 	
 	for(let i=0; i < arr.length; i++){
-
+		newArray = callback(previousValue, arr[i], i, arr);
 	}
-
+	return newArray;
 
 }
 
